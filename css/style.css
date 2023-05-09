@@ -36,8 +36,7 @@ img{
 }
 /*utilidades*/
 .contenedor{
-    max-width: 120rem;
-    width: 90%;
+    width: min(90%,120rem);
     margin: 0 auto;
 }
 .no-margin{margin: 0;}
@@ -69,6 +68,7 @@ img{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding-top: 4rem;
 }
 .logo{
     color: var(--blanco);
@@ -156,4 +156,10 @@ img{
 }
 .widget-curso__info,.widget-curso__label{
     font-size:2rem ;
+}
+/*Footer*/
+.footer{
+    background-color: var(--negro);
+    padding-bottom:3rem;
+    margin-top: 4rem;
 }
