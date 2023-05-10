@@ -42,7 +42,24 @@
     <main class="contenedor">
         <h3 class="centrar-texto">Contacto</h3>
         <div class="contacto">
-            
+            <div class="contacto__fondo"></div>
+            <form action="" class="formulario">
+                <div class="campo">
+                    <label class="campo__label" for="nombre">Nombre</label>
+                    <input class="campo__field" type="text" name="" id="nombre" placeholder="Tu Nombre">
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="emali">Email</label>
+                    <input class="campo__field" type="email" name="email" id="email" placeholder="Tu email">
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="mensaje">Mensaje</label>
+                    <textarea class="campo__field campo__field--textarea" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <div class="campo">
+                    <input type="submit" value="Enviar" class="boton boton--primario submit">
+                </div>
+            </form>
         </div>
     </main>
     <footer class="footer">
