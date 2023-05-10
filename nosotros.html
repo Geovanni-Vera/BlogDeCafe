@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlogDeCafe</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <!--prefetch-->
+    <link rel="prefetch" href="index.html" as="document">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -16,8 +18,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    
+    <!--preload-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
+ 
 </head>
 
 <body>
@@ -43,7 +50,7 @@
         <h3 class="centrar-texto">Sobre Nosotros</h3>
         <div class="sobre-nosotros">
             <div class="sobre-nosotros__imagen">
-                <img src="./img/nosotros.webp" alt="nosotros">
+                <img loading="lazy" src="./img/nosotros.webp" alt="nosotros">
             </div>
             <div class="sobre-nosotros__texto">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate autem non illo, omnis eius

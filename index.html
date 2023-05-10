@@ -6,18 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlogDeCafe</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
+        <!--prefetch-->
+        <link rel="prefetch" href="nosotros.html" as="document">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        
+        <!--preload-->
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -45,7 +51,7 @@
             <!--Inicio Entrada-->
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="./img/blog1.webp" alt="imagen blog">
+                    <img loading="lazy" src="./img/blog1.webp" alt="imagen blog">
                 </div>
                 <div class="entrada__contenido">
                     <h4 class="no-margin">Tipos de Grano de Cafe</h4>
@@ -59,7 +65,7 @@
             <!--Inicio Entrada-->
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="./img/blog2.webp" alt="imagen blog">
+                    <img loading="lazy" src="./img/blog2.webp" alt="imagen blog">
                 </div>
                 <div class="entrada__contenido">
                     <h4 class="no-margin">Tres Deliciosas Recetas de Cafe</h4>
@@ -73,7 +79,7 @@
             <!--Inicio Entrada-->
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="./img/blog3.webp" alt="imagen blog">
+                    <img loading="lazy" src="./img/blog3.webp" alt="imagen blog">
                 </div>
                 <div class="entrada__contenido">
                     <h4 class="no-margin">Beneficios del Cafe</h4>

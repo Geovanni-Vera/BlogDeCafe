@@ -2,22 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlogDeCafe</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
+        <!--prefetch-->
+        <link rel="prefetch" href="index.html" as="document">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        
+        <!--preload-->
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -43,7 +45,7 @@
         <h3 class="centrar-texto">Nuestros proximos cursos y talleres </h3>
         <div class="curso">
             <div class="curso__imagen">
-                <img src="./img/curso1.webp" alt="imagen">
+                <img loading="lazy" src="./img/curso1.webp" alt="imagen">
             </div>
             <div class="curso__informacion">
                 <h4 class="no-margin">Tecnicas de extraccion de cafe</h4>
@@ -58,7 +60,7 @@
         <!--cierre curso-->
         <div class="curso">
             <div class="curso__imagen">
-                <img src="./img/curso2.webp" alt="imagen">
+                <img loading="lazy" src="./img/curso2.webp" alt="imagen">
             </div>
             <div class="curso__informacion">
                 <h4 class="no-margin">Taller para tostar y moler granos</h4>
@@ -73,7 +75,7 @@
         <!--cierre curso-->
         <div class="curso">
             <div class="curso__imagen">
-                <img src="./img/curso3.webp" alt="imagen">
+                <img loading="lazy" src="./img/curso3.webp" alt="imagen">
             </div>
             <div class="curso__informacion">
                 <h4 class="no-margin">4 recetas de cafe para principiantes</h4>
